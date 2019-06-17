@@ -49,13 +49,6 @@ namespace MLtestapp
         {
             var result = new List<Model>();
 
-            result.Add(new Model
-            {
-                Id = -1,
-                GeneOneScore = 0.6,
-                GeneTwoScore = 0.2
-            });
-
             for (int i = 0; i < _totalSamples; i++)
             {
                 var sample = new Model
